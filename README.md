@@ -1,2 +1,2 @@
 # SE320
-This repository is for S320 (Software Construction) homework.
+This repository is for Jim Pamplona's SE320 (Software Construction) homework.
