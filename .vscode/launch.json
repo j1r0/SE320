@@ -1,0 +1,57 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AddIntegers",
+            "request": "launch",
+            "mainClass": "AddIntegers",
+            "projectName": "SE320_53680b3c"
+        },
+        {
+            "type": "java",
+            "name": "AssignmentOne",
+            "request": "launch",
+            "mainClass": "AssignmentOne",
+            "projectName": "SE320_53680b3c"
+        },
+        {
+            "type": "java",
+            "name": "AssertNumberRange",
+            "request": "launch",
+            "mainClass": "HW2.AssertNumberRange",
+            "projectName": "SE320_53680b3c",
+            "vmArgs": "-enableassertions"
+        },
+        {
+            "type": "java",
+            "name": "GenericStack",
+            "request": "launch",
+            "mainClass": "HW2.GenericStack",
+            "projectName": "SE320_53680b3c"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicate",
+            "request": "launch",
+            "mainClass": "HW2.RemoveDuplicate",
+            "projectName": "SE320_53680b3c"
+        },
+        {
+            "type": "java",
+            "name": "ValueAtIndex",
+            "request": "launch",
+            "mainClass": "ValueAtIndex",
+            "projectName": "SE320_53680b3c"
+        }
+    ]
+}
