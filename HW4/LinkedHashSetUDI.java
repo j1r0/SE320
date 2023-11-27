@@ -8,7 +8,6 @@
  */
  
  import java.util.LinkedHashSet;
- import java.util.ArrayList;
 
 public class LinkedHashSetUDI {
     public static void main(String[] args) {

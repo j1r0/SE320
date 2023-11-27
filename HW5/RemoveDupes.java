@@ -12,14 +12,13 @@ import java.util.List;
 import java.util.Iterator;
 
 public class RemoveDupes {
+    
     /**
-     * Removes duplicates from a given List.
-     * requires: The List lst should not be null or its size should not be '0', and
-     * it should allow modification of elements.
+     * Removes duplicates from a given a List.
+     * requires: The List lst should not be null or its size should not be '0', allow modification of elements,
+     * and delete duplicate items that are consecutive.
      * 
-     * @param lst The List duplicates are to be removed from.
      */
-
     public static void removeDuplicates(List lst) {
         if (lst == null || lst.size() == 0)
             return;

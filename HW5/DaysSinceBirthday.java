@@ -16,7 +16,7 @@ import java.util.Date;
 public class DaysSinceBirthday {
     
     public static void main(String[] args) {
-        // {year, month, day} ; {yyyy/MM/dd}
+        // {year[0], month[1], day[2]} ; {yyyy/MM/dd}
         int[] birthdayArray = {2003, 6, 28};
         int[] todayDateArray = splitTodaysDate();
 
@@ -24,15 +24,16 @@ public class DaysSinceBirthday {
     }
 
     private static int[] splitTodaysDate(){
-        int[] todayDateArray = new int[3];
         Date time = new Date();
+        // Formats today's date to yyyy/MM/dd
         DateFormat todayDate = new  SimpleDateFormat("yyyy/MM/dd");
-
         String todayString = todayDate.format(time);
 
-        String[] arrOfStr = todayString.split("/", 3);
+        String[] arrOfStr = todayString.split("/");
+        int[] todayDateArray = new int[arrOfStr.length];
 
-        for (int i = 0; i < 3; i++){
+        // converts string array to int array: {year[0], month[1], day[2]}
+        for (int i = 0; i < arrOfStr.length; i++){
             todayDateArray[i] = Integer.parseInt(arrOfStr[i]);
         }
         return todayDateArray;

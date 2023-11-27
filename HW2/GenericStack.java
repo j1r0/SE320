@@ -106,7 +106,7 @@ public class GenericStack<E> {
             index++;
         }
 
-        return "stack:" + arrayString + " <- Top";
+        return "stack: " + arrayString + "<- Top";
     }
 
 }

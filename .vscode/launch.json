@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DaysSinceBirthday",
+            "request": "launch",
+            "mainClass": "HW5.DaysSinceBirthday",
+            "projectName": "SE320_4f98d931"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDupes",
+            "request": "launch",
+            "mainClass": "HW5.RemoveDupes",
+            "projectName": "SE320_4f98d931"
+        },
+        {
+            "type": "java",
+            "name": "Birthday",
+            "request": "launch",
+            "mainClass": "HW5.Birthday",
+            "projectName": "SE320_4f98d931"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
